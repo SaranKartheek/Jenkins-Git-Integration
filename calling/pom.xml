@@ -15,4 +15,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>myid</id>
+        <url>http://18.217.25.79:8081/repository/snapshot-repo/</url>
+    </repository>
+   </distributionManagement>
+
 </project>
